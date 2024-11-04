@@ -9,13 +9,15 @@ function App() {
   return (
     <div className="App">
       <Box>
-        <StyleBtn color="green" fontSize="30px">
+        {/* <StyleBtn color="green" fontSize="30px">
           Hello
         </StyleBtn>
         <StyleBtn color="red" fontSize="20px">
           Hello
-        </StyleBtn>
-        <StyleBtn>Hello</StyleBtn>
+        </StyleBtn> */}
+
+        <StyleBtn primary>Hello</StyleBtn>
+        <StyleBtn outlined>Hello</StyleBtn>
       </Box>
     </div>
   );
