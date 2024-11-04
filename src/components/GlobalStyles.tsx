@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { myTheme } from "../styles/animations/Theme.styled";
 
 export const GlobalStyles = createGlobalStyle`
   *,
@@ -10,11 +11,13 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 
-
-margin: 0;
+body {
+  background-color: ${myTheme.colors.grey.dark};
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 `;
