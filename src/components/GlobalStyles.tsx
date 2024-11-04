@@ -9,9 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 
-body{
-  background-color: black
-}
+
 
 margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
