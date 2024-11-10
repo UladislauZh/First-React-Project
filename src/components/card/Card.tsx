@@ -1,9 +1,10 @@
 import React from "react";
 import Photo from "../../images/photo.png";
+import "./card.css";
 
 const Card = () => {
   return (
-    <div>
+    <div className="card">
       <div className="photo">
         <img src={Photo} alt="" />
       </div>
@@ -15,8 +16,8 @@ const Card = () => {
         </p>
       </div>
       <div className="buttons">
-        <button>See more</button>
-        <button>Save</button>
+        <button className="button1">See more</button>
+        <button className="button2">Save</button>
       </div>
     </div>
   );
